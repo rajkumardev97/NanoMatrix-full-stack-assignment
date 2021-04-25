@@ -1,0 +1,50 @@
+{
+  "name": "product-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "core-js": "^3.9.1",
+    "qrcode.react": "^1.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-qr-reader": "^2.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-toastify": "^7.0.3"
+  },
+  "scripts": {
+    "start-dev": "env-cmd -e dev react-scripts start",
+    "start-prod": "env-cmd -e prod react-scripts start",
+    "build-dev": "env-cmd -e dev react-scripts build",
+    "build-prod": "env-cmd -e prod react-scripts build",
+    "test-dev": "env-cmd -e react-scripts test",
+    "test-prod": "env-cmd -e react-scripts test",
+    "deploy-dev": "",
+    "deploy-prod": "",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
